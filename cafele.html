@@ -11,7 +11,9 @@
             
             <h1>Ograda Cafè</h1>
             <div class="logo">
-                <img src="images\logo.png" alt="logo" class="logo" width="200">
+                <a href="index.html">
+                    <img src="images\logo.png" alt="logo" class="logo" width="200">
+                </a>
             </div>
             <ul class="nav-links">
                 <li><a href="gustari.html">Gustări</a></li>
@@ -91,14 +93,37 @@
             </div>
 
             <div class="menu-item">
-                <img src="images\cafele\Ceai.jpg" alt="Ceai" class="menu-image" width="200">
-                <h3>Ceai</h3>
-                <p>Assam - Spirit of India, Earl Grey Blossom, White Earl Grey Blossom, Apple Strudel, Cherry Pomegranate, Fruit Symphony, Strawberry Mint Breeze, Pineapple Mango Sunrise, Pure Chun Mee, Jasmine Chung Chao, Mountain Herbs, Camomile, Refreshing Mint, Ginger Lemongrass </p>
-                <p>37 MDL</p>
+                <div class="flip-container" onclick="toggleFlip(this)">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="images/cafele/Ceai.jpg" alt="Ceai" class="menu-image">
+                        </div>
+                        <div class="back">
+                            <div class="tea-list">
+                                <p>Assam - Spirit of India</p>
+                                <p>Earl Grey Blossom</p>
+                                <p>White Earl Grey Blossom</p>
+                                <p>Apple Strudel</p>
+                                <p>Cherry Pomegranate</p>
+                                <p>Fruit Symphony</p>
+                                <p>Strawberry Mint Breeze</p>
+                                <p>Pineapple Mango Sunrise</p>
+                                <p>Pure Chun Mee</p>
+                                <p>Jasmine Chung Chao</p>
+                                <p>Mountain Herbs</p>
+                                <p>Camomile</p>
+                                <p>Refreshing Mint</p>
+                                <p>Ginger Lemongrass</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Ceai</h3>
+                    <p>37 MDL</p>
+                </div>
             </div>
-            
         </div>
-</body>
+        <script src="js\cafea.js"></script>
+    </body>
 
 <footer>
     <div class="footer-content">
@@ -116,16 +141,39 @@
                 <p><a href="https://www.instagram.com/cafe.ograda/?hl=en">Instagram</a></p>
             </div>
         </div>
-                <div class="program">
-                <h4>Program de Lucru</h4>
-                <p>Luni             07:30 - 21:30</p>
-                <p>Marți            07:30 - 21:30</p>
-                <p>Miercuri         07:30 - 21:30</p>
-                <p>Joi              07:30 - 21:30</p>
-                <p>Vineri           07:30 - 21:30</p>
-                <p>Sâmbătă          07:30 - 21:30</p>
-                <p>Duminică         07:30 - 21:30</p>
-                </div>
+        <div class="program">
+            <h3>Program de Lucru</h3>
+            <table>
+                <tr>
+                    <th>Luni</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+                <tr>
+                    <th>Marți</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+                <tr>
+                    <th>Miercuri</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+                <tr>
+                    <th>Joi</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+                <tr>
+                    <th>Vineri</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+                <tr>
+                    <th>Sâmbătă</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+                <tr>
+                    <th>Duminică</th>
+                    <td>07:30 - 21:30</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <div class="footer-bottom">
         <p>&copy; 2025 Ograda</p>

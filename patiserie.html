@@ -11,7 +11,9 @@
             
             <h1>Ograda Cafè</h1>
             <div class="logo">
-                <img src="images\logo.png" alt="logo" class="logo" width="200">
+                <a href="index.html">
+                    <img src="images\logo.png" alt="logo" class="logo" width="200">
+                </a>
             </div>
             <ul class="nav-links">
                 <li><a href="gustari.html">Gustări</a></li>
@@ -25,7 +27,7 @@
         
             <h2>Patiserie</h2>
 
-            <h2>KEKS</h2>
+            <h2 class="nume">KEKS</h2>
             <main class="patiserie">
             <!-- <div class="menu-item">
                 <img src="images\patiserie\ChCaramela.jpg" alt="ChCaramela" class="menu-image" width="200">
@@ -52,10 +54,25 @@
             </div> -->
 
             <div class="menu-item">
-                <img src="images\patiserie\Ecler.jpg" alt="Ecler" class="menu-image" width="200">
-                <h3>Eclere</h3>
-                <p>Fistic, Fistic, Pomușoare, Ciocolată, Halva, Caramelă, Cocos</p>
-                <p>48 MDL</p>
+                <div class="flip-container" onclick="toggleFlip(this)">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="images\patiserie\Ecler.jpg" alt="Ecler" class="menu-image" width="200">
+                        </div>
+                        <div class="back">
+                            <div class="ecler-list">
+                                <p>Fistic</p>
+                                <p>Pomușoare</p>
+                                <p>Ciocolată</p>
+                                <p>Halva</p>
+                                <p>Caramelă</p>
+                                <p>Cocos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Eclere</h3>
+                    <p>48 MDL</p>
+                </div>
             </div>
 
             <div class="menu-item">
@@ -168,7 +185,7 @@
             </main>
 
 
-        <h2>Ice Dessert</h2>
+        <h2 class="nume">Ice Dessert</h2>
         <main class="patiserie">
             <div class="menu-item">
                 <img src="images\patiserie\Macarons.jpg" alt="Macarons" class="menu-image" width="200">
@@ -198,7 +215,6 @@
                 <img src="images\patiserie\Kievskii.jpg" alt="Kievskii" class="menu-image" width="200">
                 <h3>Kievskii</h3>
                 <p>85 MDL</p>
-                
             </div>
             
             <!-- <div class="menu-item">
@@ -220,7 +236,7 @@
             </div>
         </main>
 
-        <h2>Bone</h2>
+        <h2 class="nume">Bone</h2>
         <main class="patiserie1">
             <div class="menu-item">
                 <img src="images\patiserie\Alunel.jpg" alt="Alunel" class="menu-image" width="200">
@@ -260,21 +276,45 @@
                     <p><a href="https://www.instagram.com/cafe.ograda/?hl=en">Instagram</a></p>
                 </div>
             </div>
-                    <div class="program">
-                    <h4>Program de Lucru</h4>
-                    <p>Luni             07:30 - 21:30</p>
-                    <p>Marți            07:30 - 21:30</p>
-                    <p>Miercuri         07:30 - 21:30</p>
-                    <p>Joi              07:30 - 21:30</p>
-                    <p>Vineri           07:30 - 21:30</p>
-                    <p>Sâmbătă          07:30 - 21:30</p>
-                    <p>Duminică         07:30 - 21:30</p>
-                    </div>
+            <div class="program">
+                <h3>Program de Lucru</h3>
+                <table>
+                    <tr>
+                        <th>Luni</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Marți</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Miercuri</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Joi</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Vineri</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Sâmbătă</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Duminică</th>
+                        <td>08:00 - 21:00</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2025 Ograda</p>
         </div>
     </footer>
-    
+    <script src="js\cafea.js"></script>
+
     </body>
     </html>
