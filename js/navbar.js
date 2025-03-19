@@ -49,3 +49,15 @@ function filterResults() {
     resultsContainer.style.display = "block";
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => { 
+        const images = document.querySelectorAll(".menu-item");
+
+        images.forEach((img, index) => {
+            setTimeout(() => {
+                img.classList.add("show"); 
+            }, index * 500); 
+        });
+    }, 1000); 
+});
+
