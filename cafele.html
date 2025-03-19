@@ -1,184 +1,138 @@
 <!DOCTYPE html>
 <html lang="ro">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ograda Cafè</title>
-        <link rel="stylesheet" href="css\cafele.css">
-    </head>
-    <body>
-        <nav class="navbar">
-            
-            <h1>Ograda Cafè</h1>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images\logo.png" alt="logo" class="logo" width="200">
-                </a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="gustari.html">Gustări</a></li>
-                <li><a href="patiserie.html">Patiserie</a></li>
-                <li><a href="meniu-vegetarian.html">Meniu Vegetarian</a></li>
-                <li><a href="cafele.html">Cafele</a></li>
-                <li><a href="bauturi-de-sezon.html">Băuturi de Sezon</a></li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ograda Cafè</title>
+    <link rel="stylesheet" href="css/cafele.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script src="js/navbar.js"></script>
+    
+    <div class="cafele">
         
-        <div class="cafele">
-            
-            <div class="menu-item">
-                <img src="images\cafele\Espresso.jpg" alt="Espresso" class="menu-image" width="200">
-                <h3>Espresso</h3>
-                <p>33 MDL</p>
-            </div>
+        <div class="menu-item" id="espresso">
+            <img src="images/cafele/Espresso.jpg" alt="Espresso" class="menu-image" width="200">
+            <h3>Espresso</h3>
+            <p>33 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <img src="images\cafele\EspressoM.jpg" alt="EspressoM" class="menu-image" width="200">
-                <h3>Espresso Machiato</h3>
-                <p>36 MDL</p>
-            </div>
+        <div class="menu-item" id="espresso-macchiato">
+            <img src="images/cafele/EspressoM.jpg" alt="EspressoM" class="menu-image" width="200">
+            <h3>Espresso Macchiato</h3>
+            <p>36 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <img src="images\cafele\DEspresso.jpg" alt="DEspresso" class="menu-image" width="200">
-                <h3>Double Espresso</h3>
-                <p>53 MDL</p>
-            </div>            
-            
-            <div class="menu-item">
-                <img src="images\cafele\Americano.jpg" alt="Americano" class="menu-image" width="200">
-                <h3>Americano</h3>
-                <p>33 MDL</p>
-            </div>
-            
-            <div class="menu-item">
-                <img src="images\cafele\Cappuccino.jpg" alt="Cappuccino" class="menu-image" width="200">
-                <h3>Cappuccino</h3>
-                <p>45 MDL</p>
-            </div>
+        <div class="menu-item" id="double-espresso">
+            <img src="images/cafele/DEspresso.jpg" alt="DEspresso" class="menu-image" width="200">
+            <h3>Double Espresso</h3>
+            <p>53 MDL</p>
+        </div>            
+        
+        <div class="menu-item" id="americano">
+            <img src="images/cafele/Americano.jpg" alt="Americano" class="menu-image" width="200">
+            <h3>Americano</h3>
+            <p>33 MDL</p>
+        </div>
+        
+        <div class="menu-item" id="cappuccino">
+            <img src="images/cafele/Cappuccino.jpg" alt="Cappuccino" class="menu-image" width="200">
+            <h3>Cappuccino</h3>
+            <p>45 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <img src="images\cafele\DCappuccino.jpg" alt="DCappuccino" class="menu-image" width="200">
-                <h3>Double Cappuccino</h3>
-                <p>60 MDL</p>
-            </div>
-            
-            <div class="menu-item">
-                <img src="images\cafele\FlatWhite.jpg" alt="FlatWhite" class="menu-image" width="200">
-                <h3>Flat White</h3>
-                <p>55 MDL</p>
-            </div>
-            
-            <div class="menu-item">
-                <img src="images\cafele\Latte.jpg" alt="Latte" class="menu-image" width="200">
-                <h3>Latte</h3>
-                <p>50 MDL</p>
-            </div>
+        <div class="menu-item" id="double-cappuccino">
+            <img src="images/cafele/DCappuccino.jpg" alt="DCappuccino" class="menu-image" width="200">
+            <h3>Double Cappuccino</h3>
+            <p>60 MDL</p>
+        </div>
+        
+        <div class="menu-item" id="flat-white">
+            <img src="images/cafele/FlatWhite.jpg" alt="FlatWhite" class="menu-image" width="200">
+            <h3>Flat White</h3>
+            <p>55 MDL</p>
+        </div>
+        
+        <div class="menu-item" id="latte">
+            <img src="images/cafele/Latte.jpg" alt="Latte" class="menu-image" width="200">
+            <h3>Latte</h3>
+            <p>50 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <img src="images\cafele\Raf.jpg" alt="Raf" class="menu-image" width="200">
-                <h3>Raf</h3>
-                <p>75 MDL</p>
-            </div>
+        <div class="menu-item" id="raf">
+            <img src="images/cafele/Raf.jpg" alt="Raf" class="menu-image" width="200">
+            <h3>Raf</h3>
+            <p>75 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <img src="images\cafele\CF.jpg" alt="CF" class="menu-image" width="200">
-                <h3>Ciocolată Fierbinte</h3>
-                <p>40 MDL</p>
-            </div>
+        <div class="menu-item" id="ciocolata-fierbinte">
+            <img src="images/cafele/CF.jpg" alt="CF" class="menu-image" width="200">
+            <h3>Ciocolată Fierbinte</h3>
+            <p>40 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <img src="images\cafele\Cacao.jpg" alt="Cacao" class="menu-image" width="200">
-                <h3>Cacao</h3>
-                <p>50 MDL</p>
-            </div>
+        <div class="menu-item" id="cacao">
+            <img src="images/cafele/Cacao.jpg" alt="Cacao" class="menu-image" width="200">
+            <h3>Cacao</h3>
+            <p>50 MDL</p>
+        </div>
 
-            <div class="menu-item">
-                <div class="flip-container" onclick="toggleFlip(this)">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/cafele/Ceai.jpg" alt="Ceai" class="menu-image">
-                        </div>
-                        <div class="back">
-                            <div class="tea-list">
-                                <p>Assam - Spirit of India</p>
-                                <p>Earl Grey Blossom</p>
-                                <p>White Earl Grey Blossom</p>
-                                <p>Apple Strudel</p>
-                                <p>Cherry Pomegranate</p>
-                                <p>Fruit Symphony</p>
-                                <p>Strawberry Mint Breeze</p>
-                                <p>Pineapple Mango Sunrise</p>
-                                <p>Pure Chun Mee</p>
-                                <p>Jasmine Chung Chao</p>
-                                <p>Mountain Herbs</p>
-                                <p>Camomile</p>
-                                <p>Refreshing Mint</p>
-                                <p>Ginger Lemongrass</p>
-                            </div>
+        <div class="menu-item" id="ceai">
+            <div class="flip-container" onclick="toggleFlip(this)">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="images/cafele/Ceai.jpg" alt="Ceai" class="menu-image">
+                    </div>
+                    <div class="back">
+                        <div class="tea-list">
+                            <p>Assam - Spirit of India</p>
+                            <p>Earl Grey Blossom</p>
+                            <p>White Earl Grey Blossom</p>
+                            <p>Apple Strudel</p>
+                            <p>Cherry Pomegranate</p>
+                            <p>Fruit Symphony</p>
+                            <p>Strawberry Mint Breeze</p>
+                            <p>Pineapple Mango Sunrise</p>
+                            <p>Pure Chun Mee</p>
+                            <p>Jasmine Chung Chao</p>
+                            <p>Mountain Herbs</p>
+                            <p>Camomile</p>
+                            <p>Refreshing Mint</p>
+                            <p>Ginger Lemongrass</p>
                         </div>
                     </div>
-                    <h3>Ceai</h3>
-                    <p>37 MDL</p>
                 </div>
+                <h3>Ceai</h3>
+                <p>37 MDL</p>
             </div>
         </div>
-        <script src="js\cafea.js"></script>
-    </body>
-
-<footer>
-    <div class="footer-content">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.112623796016!2d28.862653776846276!3d47.0576410257239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97dae7e72e179%3A0x1f72622eb4521f!2sOgrada%20Caf%C3%A9!5e0!3m2!1sen!2s!4v1741111198922!5m2!1sen!2s" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="contact-info">
-            <h3>Contacte</h3>
-            <p>Bulevardul Moscova 21, MD-2045, Moldova</p>
-            <p>Telefon: 022 804 600</p>
-
-
-            <div class="social-media">
-                <h3>Urmăriți-ne</h3>
-                <p><a href="https://www.instagram.com/cafe.ograda/?hl=en">Instagram</a></p>
-            </div>
-        </div>
-        <div class="program">
-            <h3>Program de Lucru</h3>
-            <table>
-                <tr>
-                    <th>Luni</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-                <tr>
-                    <th>Marți</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-                <tr>
-                    <th>Miercuri</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-                <tr>
-                    <th>Joi</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-                <tr>
-                    <th>Vineri</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-                <tr>
-                    <th>Sâmbătă</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-                <tr>
-                    <th>Duminică</th>
-                    <td>07:30 - 21:30</td>
-                </tr>
-            </table>
-        </div>
     </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 Ograda</p>
-    </div>
-</footer>
 
+    <script src="js/cafea.js"></script>
+    <div id="footer-container"></div>
+    <script src="js/footer.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.hash) {
+        const targetId = window.location.hash.substring(1); // Remove #
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            setTimeout(() => {
+                targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
+
+                // Add highlight effect with CSS class
+                targetElement.classList.add("highlight");
+                
+                // Remove highlight after 4 seconds (1s fade-in, 2s hold, 1s fade-out)
+                setTimeout(() => {
+                    targetElement.classList.remove("highlight");
+                }, 2000);
+            }, 500);
+        }
+    }
+});
+    </script>
 </body>
 </html>
