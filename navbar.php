@@ -23,7 +23,7 @@ session_start(); // Start the session here, before any HTML or output.
         if (isset($_SESSION["username"])) {
             echo '<li><a href="logout.php">Exit</a></li>';
         } else {
-            echo '<li><a href="login.php">Login</a></li>';
+            echo '<li><a href="login_page.php">Login</a></li>';
         }
         ?>
     </ul>

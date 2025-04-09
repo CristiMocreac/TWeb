@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         file_put_contents($file, json_encode($users, JSON_PRETTY_PRINT));
 
         $_SESSION["username"] = $username;
-        header("Location: index.php");
+        echo "success"; // this will be checked in AJAX
         exit;
     } else {
         echo "Please fill in all fields.";

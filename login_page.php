@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Page</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="css/formular.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/register.js" defer></script> 
+    <script src="js/login.js" defer></script>
 </head>
-
 <body>
     <div class="login-container">
-        <h2>Register</h2>
-        <form id="registerForm">
+        <h2>Login</h2>
+        <form id="loginForm">
             <div class="input-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
@@ -21,9 +20,9 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="login-btn">Register</button>
+            <button type="submit" class="login-btn">Login</button>
         </form>
-        <p>Already have an account? <a href="login_page.php">Login here</a></p>
+        <p>Don't have an account? <a href="register_page.php">Register here</a></p>
     </div>
 </body>
 </html>
