@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="navbar-container"></div>
-    <script src="js\navbar.js"></script>
+    <script src="js/navbar.js"></script>
         
         <main class="menu-section">
             <h2>Cafele</h2>
@@ -113,8 +113,7 @@
             </div>
         
     <div id="footer-container"></div>
-    <script src="js\cafea.js"></script>
+    <script src="js/cafea.js"></script>
     <script src="js/footer.js"></script>
     </body>
-    
     </html>

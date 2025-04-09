@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("navbar.html")
+    fetch("navbar.php")
         .then(response => response.text())
         .then(data => {
             document.getElementById("navbar-container").innerHTML = data;
@@ -18,11 +18,11 @@ function filterResults() {
     }
 
     const pages = [
-        { url: "gustari.html", name: "Gustări", items: ["chips", "nachos"] },
-        { url: "patiserie.html", name: "Patiserie", items: ["croissant", "ecler", "tartă"] },
-        { url: "meniu-vegetarian.html", name: "Meniu Vegetarian", items: ["salată", "humus"] },
-        { url: "cafele.html", name: "Cafele", items: ["espresso", "latte", "cappuccino", "ciocolată caldă", "ceai"] },
-        { url: "bauturi-de-sezon.html", name: "Băuturi de Sezon", items: ["bibi", "bubu"] }
+        { url: "gustari.php", name: "Gustări", items: ["chips", "nachos"] },
+        { url: "patiserie.php", name: "Patiserie", items: ["croissant", "ecler", "tartă"] },
+        { url: "meniu-vegetarian.php", name: "Meniu Vegetarian", items: ["salată", "humus"] },
+        { url: "cafele.php", name: "Cafele", items: ["espresso", "latte", "cappuccino", "ciocolată caldă", "ceai"] },
+        { url: "bauturi-de-sezon.php", name: "Băuturi de Sezon", items: ["bibi", "bubu"] }
     ];
 
     let matches = [];
